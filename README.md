@@ -25,6 +25,7 @@ Project was created with:
 * Maven 3.9.5
 * Maven Wrapper 3.2.0
 * Spring Boot 3.1.7
+* Lombok 1.18.30
 
 ## Setup
 To run this project, clone this repo and run the following commands.
