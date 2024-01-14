@@ -1,0 +1,6 @@
+com/test/publicis/groupe/demo/provider/ProveedorMiembrosPlanilla.class
+com/test/publicis/groupe/demo/processor/ProcesadorPlanillas.class
+com/test/publicis/groupe/demo/DemoApplication.class
+com/test/publicis/groupe/demo/domain/Empleado$EmpleadoBuilder.class
+com/test/publicis/groupe/demo/domain/Empleado.class
+com/test/publicis/groupe/demo/provider/DemoProveedorMiembrosPlanilla.class

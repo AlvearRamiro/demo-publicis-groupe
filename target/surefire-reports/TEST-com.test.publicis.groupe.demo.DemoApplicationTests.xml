@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.publicis.groupe.demo.DemoApplicationTests" time="0.833" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/alvearR/demo-publicis-groupe/target/test-classes:/Users/alvearR/demo-publicis-groupe/target/classes:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.7/spring-boot-starter-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot/3.1.7/spring-boot-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/spring-context/6.0.15/spring-context-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-aop/6.0.15/spring-aop-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-beans/6.0.15/spring-beans-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-expression/6.0.15/spring-expression-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.7/spring-boot-autoconfigure-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.7/spring-boot-starter-logging-3.1.7.jar:/Users/alvearR/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/alvearR/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/alvearR/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/alvearR/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/alvearR/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/alvearR/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/alvearR/.m2/repository/org/springframework/spring-core/6.0.15/spring-core-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-jcl/6.0.15/spring-jcl-6.0.15.jar:/Users/alvearR/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/alvearR/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.7/spring-boot-starter-test-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-test/3.1.7/spring-boot-test-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.7/spring-boot-test-autoconfigure-3.1.7.jar:/Users/alvearR/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/alvearR/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/alvearR/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/alvearR/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/alvearR/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/alvearR/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/alvearR/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/alvearR/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/alvearR/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/alvearR/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/alvearR/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alvearR/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/alvearR/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/alvearR/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/alvearR/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/alvearR/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/alvearR/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/alvearR/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/alvearR/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/alvearR/.m2/repository/org/springframework/spring-test/6.0.15/spring-test-6.0.15.jar:/Users/alvearR/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/alvearR/demo-publicis-groupe/target/surefire/surefirebooter-20240113195610568_3.jar /Users/alvearR/demo-publicis-groupe/target/surefire 2024-01-13T19-56-10_495-jvmRun1 surefire-20240113195610568_1tmp surefire_0-20240113195610568_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/alvearR/demo-publicis-groupe/target/test-classes:/Users/alvearR/demo-publicis-groupe/target/classes:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.7/spring-boot-starter-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot/3.1.7/spring-boot-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/spring-context/6.0.15/spring-context-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-aop/6.0.15/spring-aop-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-beans/6.0.15/spring-beans-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-expression/6.0.15/spring-expression-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.7/spring-boot-autoconfigure-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.7/spring-boot-starter-logging-3.1.7.jar:/Users/alvearR/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/alvearR/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/alvearR/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/alvearR/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/alvearR/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/alvearR/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/alvearR/.m2/repository/org/springframework/spring-core/6.0.15/spring-core-6.0.15.jar:/Users/alvearR/.m2/repository/org/springframework/spring-jcl/6.0.15/spring-jcl-6.0.15.jar:/Users/alvearR/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/alvearR/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.7/spring-boot-starter-test-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-test/3.1.7/spring-boot-test-3.1.7.jar:/Users/alvearR/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.7/spring-boot-test-autoconfigure-3.1.7.jar:/Users/alvearR/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/alvearR/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/alvearR/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/alvearR/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/alvearR/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/alvearR/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/alvearR/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/alvearR/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/alvearR/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/Users/alvearR/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/alvearR/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alvearR/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/alvearR/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/alvearR/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/alvearR/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/alvearR/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar:/Users/alvearR/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/alvearR/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/alvearR/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/alvearR/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/alvearR/.m2/repository/org/springframework/spring-test/6.0.15/spring-test-6.0.15.jar:/Users/alvearR/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/alvearR"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/alvearR/demo-publicis-groupe"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/alvearR/demo-publicis-groupe/target/surefire/surefirebooter-20240113195610568_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="alvearR"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/alvearR/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mg/2fv0pk2s2tv4w4q1wn2_65g00000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/alvearR/demo-publicis-groupe"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="2424"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/alvearR/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.test.publicis.groupe.demo.DemoApplicationTests" time="0.008">
+    <system-out><![CDATA[19:56:11.996 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.test.publicis.groupe.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:56:12.075 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.test.publicis.groupe.demo.DemoApplication for test class com.test.publicis.groupe.demo.DemoApplicationTests
+  ___      _    _ _    _       ___                        
+ | _ \_  _| |__| (_)__(_)___  / __|_ _ ___ _  _ _ __  ___ 
+ |  _/ || | '_ \ | / _| (_-< | (_ | '_/ _ \ || | '_ \/ -_)
+ |_|  \_,_|_.__/_|_\__|_/__/  \___|_| \___/\_,_| .__/\___|
+                                               |_|        
+demo
+Java 17.0.9
+Powered by Spring Boot 3.1.7
+2024-01-13T19:56:12.347-05:00  INFO 2424 --- [           main] c.t.p.groupe.demo.DemoApplicationTests   : Starting DemoApplicationTests using Java 17.0.9 with PID 2424 (started by alvearR in /Users/alvearR/demo-publicis-groupe)
+2024-01-13T19:56:12.348-05:00  INFO 2424 --- [           main] c.t.p.groupe.demo.DemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-01-13T19:56:12.674-05:00  INFO 2424 --- [           main] c.t.p.groupe.demo.DemoApplicationTests   : Started DemoApplicationTests in 0.515 seconds (process running for 2.046)
+total=0.0
+]]></system-out>
+  </testcase>
+</testsuite>
