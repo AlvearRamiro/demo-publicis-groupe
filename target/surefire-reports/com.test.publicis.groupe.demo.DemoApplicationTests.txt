@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.test.publicis.groupe.demo.DemoApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.833 s - in com.test.publicis.groupe.demo.DemoApplicationTests
